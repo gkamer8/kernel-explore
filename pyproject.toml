@@ -1,0 +1,17 @@
+[project]
+name = "kernel-explore"
+version = "0.1.0"
+description = "Starting to play around with kernels"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.9.0",
+    "triton>=3.5.0",
+]
+
+[project.scripts]
+kernel-explore = "kernel_explore:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
