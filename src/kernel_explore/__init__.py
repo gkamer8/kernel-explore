@@ -1,2 +1,2 @@
 
-from kernel_explore.main_triton import main
+from kernel_explore.add_kernel import main
